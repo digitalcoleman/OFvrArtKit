@@ -1,6 +1,11 @@
 #pragma once
 
 #include "ofMain.h"
+#include "ofxGui.h"
+#include "ofxAssimpModelLoader.h"
+
+#include "Math/MathUtils.h"
+#include "Cameras/ofxWalkingFirstPersonCamera.h"
 
 class ofApp : public ofBaseApp{
 	public:
@@ -19,4 +24,9 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
+    
+        ofxFirstPersonCamera	camera;
+        ofCamera topView;
+        ofSpherePrimitive testDot;
+        ofxAssimpModelLoader model1;
 };

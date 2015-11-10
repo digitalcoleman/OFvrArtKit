@@ -9,6 +9,70 @@
 		<string>46</string>
 		<key>objects</key>
 		<dict>
+			<key>A79B4C35722CF095DCB8315F</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxManipulator.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxManipulator/src/ofxManipulator.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>B488445ECE1D0ACAC51B2707</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>B7E29C461ED32222BD48291D</string>
+					<string>A79B4C35722CF095DCB8315F</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>6BC28D81D39E83369B29413A</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>B488445ECE1D0ACAC51B2707</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxManipulator</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>F0C4FFB5649DCC2223DF6647</key>
+			<dict>
+				<key>fileRef</key>
+				<string>B7E29C461ED32222BD48291D</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>B7E29C461ED32222BD48291D</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxManipulator.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxManipulator/src/ofxManipulator.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
 			<key>0A1DAC09F322AE313A40706D</key>
 			<dict>
 				<key>explicitFileType</key>
@@ -1200,12 +1264,101 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
+			<key>89101928FC52AC79C4AC9BA2</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>198ACAE10444C839DCDB4286</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>Math</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>198ACAE10444C839DCDB4286</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>MathUtils.h</string>
+				<key>path</key>
+				<string>src/Math/MathUtils.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E5D2B0CA04A4DB4DD514BFE1</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxWalkingFirstPersonCameraOculus.h</string>
+				<key>path</key>
+				<string>src/Cameras/ofxWalkingFirstPersonCameraOculus.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>6E3129E88A9944EF31D350F6</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxWalkingFirstPersonCamera.h</string>
+				<key>path</key>
+				<string>src/Cameras/ofxWalkingFirstPersonCamera.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>73F9A0DD78A60BB9FF78AC64</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>583A8CCC45C3E979FFD68F18</string>
+					<string>6E3129E88A9944EF31D350F6</string>
+					<string>E5D2B0CA04A4DB4DD514BFE1</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>Cameras</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>583A8CCC45C3E979FFD68F18</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxFirstPersonCamera.h</string>
+				<key>path</key>
+				<string>src/Cameras/ofxFirstPersonCamera.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
 			<key>BB4B014C10F69532006C3DED</key>
 			<dict>
 				<key>children</key>
 				<array>
 					<string>2C8F245ACBE61E28646C17F2</string>
 					<string>480A780D8D0308AE4A368801</string>
+					<string>6BC28D81D39E83369B29413A</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -1376,6 +1529,8 @@
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
+						<string>src/Cameras</string>
+						<string>src/Math</string>
 						<string>../../../addons/ofxAssimpModelLoader/libs</string>
 						<string>../../../addons/ofxAssimpModelLoader/libs/assimp</string>
 						<string>../../../addons/ofxAssimpModelLoader/libs/assimp/include</string>
@@ -1387,6 +1542,7 @@
 						<string>../../../addons/ofxAssimpModelLoader/libs/assimp/license</string>
 						<string>../../../addons/ofxAssimpModelLoader/src</string>
 						<string>../../../addons/ofxGui/src</string>
+						<string>../../../addons/ofxManipulator/src</string>
 					</array>
 					<key>CONFIGURATION_BUILD_DIR</key>
 					<string>$(SRCROOT)/bin/</string>
@@ -1450,6 +1606,8 @@
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
+						<string>src/Cameras</string>
+						<string>src/Math</string>
 						<string>../../../addons/ofxAssimpModelLoader/libs</string>
 						<string>../../../addons/ofxAssimpModelLoader/libs/assimp</string>
 						<string>../../../addons/ofxAssimpModelLoader/libs/assimp/include</string>
@@ -1461,6 +1619,7 @@
 						<string>../../../addons/ofxAssimpModelLoader/libs/assimp/license</string>
 						<string>../../../addons/ofxAssimpModelLoader/src</string>
 						<string>../../../addons/ofxGui/src</string>
+						<string>../../../addons/ofxManipulator/src</string>
 					</array>
 					<key>CONFIGURATION_BUILD_DIR</key>
 					<string>$(SRCROOT)/bin/</string>
@@ -1529,6 +1688,7 @@
 					<string>837220E80EB56CD44AD27F2A</string>
 					<string>B56FE57CC35806596D38118C</string>
 					<string>1CD33E884D9E3358252E82A1</string>
+					<string>F0C4FFB5649DCC2223DF6647</string>
 				</array>
 				<key>isa</key>
 				<string>PBXSourcesBuildPhase</string>
@@ -1618,6 +1778,8 @@
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
+						<string>src/Cameras</string>
+						<string>src/Math</string>
 						<string>../../../addons/ofxAssimpModelLoader/libs</string>
 						<string>../../../addons/ofxAssimpModelLoader/libs/assimp</string>
 						<string>../../../addons/ofxAssimpModelLoader/libs/assimp/include</string>
@@ -1629,6 +1791,7 @@
 						<string>../../../addons/ofxAssimpModelLoader/libs/assimp/license</string>
 						<string>../../../addons/ofxAssimpModelLoader/src</string>
 						<string>../../../addons/ofxGui/src</string>
+						<string>../../../addons/ofxManipulator/src</string>
 					</array>
 					<key>COMBINE_HIDPI_IMAGES</key>
 					<string>YES</string>
@@ -1682,6 +1845,8 @@
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
+						<string>src/Cameras</string>
+						<string>src/Math</string>
 						<string>../../../addons/ofxAssimpModelLoader/libs</string>
 						<string>../../../addons/ofxAssimpModelLoader/libs/assimp</string>
 						<string>../../../addons/ofxAssimpModelLoader/libs/assimp/include</string>
@@ -1693,6 +1858,7 @@
 						<string>../../../addons/ofxAssimpModelLoader/libs/assimp/license</string>
 						<string>../../../addons/ofxAssimpModelLoader/src</string>
 						<string>../../../addons/ofxGui/src</string>
+						<string>../../../addons/ofxManipulator/src</string>
 					</array>
 					<key>COMBINE_HIDPI_IMAGES</key>
 					<string>YES</string>
@@ -1738,6 +1904,8 @@
 					<string>E4B69E1D0A3A1BDC003C02F2</string>
 					<string>E4B69E1E0A3A1BDC003C02F2</string>
 					<string>E4B69E1F0A3A1BDC003C02F2</string>
+					<string>73F9A0DD78A60BB9FF78AC64</string>
+					<string>89101928FC52AC79C4AC9BA2</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
