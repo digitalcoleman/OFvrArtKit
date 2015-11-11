@@ -7,6 +7,8 @@
 #include "Math/MathUtils.h"
 #include "Cameras/ofxWalkingFirstPersonCamera.h"
 
+#define numModels 20
+
 class ofApp : public ofBaseApp{
 	public:
 		void setup();
@@ -28,5 +30,8 @@ class ofApp : public ofBaseApp{
         ofxFirstPersonCamera	camera;
         ofCamera topView;
         ofSpherePrimitive testDot;
-        ofxAssimpModelLoader model1;
+        //ofxAssimpModelLoader models[numModels];
+        vector<ofxAssimpModelLoader> models;
+    
+    int currMod;
 };

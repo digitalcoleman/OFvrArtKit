@@ -35,15 +35,19 @@ void ofApp::setup(){
     glColorMaterial (GL_FRONT_AND_BACK, GL_DIFFUSE);
     glEnable (GL_COLOR_MATERIAL);
     
+    currMod = 1;
     //load the model - the 3ds and the texture file need to be in the same folder
-    model1.loadModel("NewSquirrel.3ds", 20);
+    
+    ofxAssimpModelLoader modelTemp;
+    modelTemp.loadModel("NewSquirrel.3ds", 20);
+    models.push_back(modelTemp);
     
     //you can create as many rotations as you want
     //choose which axis you want it to effect
     //you can update these rotations later on
-    model1.setRotation(0, 90, 1, 0, 0);
+//    models[currMod].setRotation(0, 90, 1, 0, 0);
 //    squirrelModel.setRotation(1, 270, 0, 0, 1);
-    model1.setScale(0.05, 0.05, 0.05);
+//    models[currMod].setScale(0.05, 0.05, 0.05);
 //    squirrelModel.setPosition(ofGetWidth()/2, ofGetHeight()/2, 0);
     
 }
@@ -79,7 +83,9 @@ void ofApp::draw(){
     testDot.draw();
     
     ofSetColor( ofColor::white );
-    model1.drawFaces();
+    for( auto model: models) {
+        model.drawFaces();
+    }
     
     topView.end();
     
